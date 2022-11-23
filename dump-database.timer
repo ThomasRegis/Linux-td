@@ -1,0 +1,7 @@
+#configuration du Timer
+[Unit]
+Description=10min
+[Timer]
+OnCalendar= 0:10
+[Install]
+WantedBy=timers.target
