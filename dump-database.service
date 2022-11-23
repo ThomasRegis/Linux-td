@@ -1,0 +1,7 @@
+// Cette partie a été réalisée à l'aide d'une page internet
+[Unit]
+Description=database
+[Service]
+ExecStart=/home/thomas/ficherbasededonnée/dump-database.sh
+[Install]
+WantedBy=multi-user.target
